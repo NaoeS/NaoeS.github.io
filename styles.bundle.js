@@ -89,10 +89,10 @@ function toComment(sourceMap) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(225);
+var content = __webpack_require__(226);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(274)(content, {});
+var update = __webpack_require__(275)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -110,7 +110,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 225:
+/***/ 226:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(10)(false);
@@ -118,14 +118,14 @@ exports = module.exports = __webpack_require__(10)(false);
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\nbody, html {\n  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, '\\30D2\\30E9\\30AE\\30CE\\89D2\\30B4\\30B7\\30C3\\30AF   Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, '\\FF2D\\FF33   \\FF30\\30B4\\30B7\\30C3\\30AF', 'MS PGothic', sans-serif;\n  width: 100%;\n  height: 100%; }\n\nheader {\n  color: white;\n  background-color: black; }\n\nfooter {\n  height: 30px;\n  width: 100%;\n  background-color: black;\n  position: absolute;\n  bottom: 0; }\n  footer p {\n    font-size: 12px;\n    margin: 0; }\n\ntable {\n  font-size: 12px; }\n  table button {\n    font-size: 12px !important; }\n", ""]);
+exports.push([module.i, "body, html {\n  height: 100%; }\n\nheader {\n  padding: 5px;\n  color: white;\n  background-color: black; }\n  header h2 {\n    font-family: 'Henny Penny', cursive;\n    margin: 0; }\n\ntable {\n  font-size: 12px; }\n  table button {\n    font-size: 12px !important; }\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 274:
+/***/ 275:
 /***/ (function(module, exports) {
 
 /*
@@ -378,7 +378,7 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 279:
+/***/ 280:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(155);
@@ -386,5 +386,5 @@ module.exports = __webpack_require__(155);
 
 /***/ })
 
-},[279]);
+},[280]);
 //# sourceMappingURL=styles.bundle.js.map
