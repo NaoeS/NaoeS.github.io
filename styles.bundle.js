@@ -1,6 +1,6 @@
 webpackJsonp([2,4],{
 
-/***/ 10:
+/***/ 12:
 /***/ (function(module, exports) {
 
 /*
@@ -83,16 +83,16 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ 155:
+/***/ 276:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(226);
+var content = __webpack_require__(351);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(275)(content, {});
+var update = __webpack_require__(400)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -110,22 +110,22 @@ if(false) {
 
 /***/ }),
 
-/***/ 226:
+/***/ 351:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(10)(false);
+exports = module.exports = __webpack_require__(12)(false);
 // imports
 
 
 // module
-exports.push([module.i, "body, html {\n  height: 100%; }\n\nheader {\n  padding: 5px;\n  color: white;\n  background-color: black; }\n  header h2 {\n    font-family: 'Henny Penny', cursive;\n    margin: 0; }\n\ntable {\n  font-size: 12px; }\n  table button {\n    font-size: 12px !important; }\n", ""]);
+exports.push([module.i, "body, html {\n  height: 100%; }\n\nheader {\n  padding: 5px;\n  color: white;\n  background-color: black;\n  position: fixed;\n  width: 100%;\n  top: 0;\n  left: 0;\n  z-index: 9999; }\n  header h2 {\n    font-family: 'Henny Penny', cursive;\n    margin: 0; }\n\ntable {\n  font-size: 12px; }\n  table button {\n    font-size: 12px !important; }\n\n.modal {\n  margin-top: 65px;\n  background: transparent !important;\n  z-index: 9998 !important;\n  height: 90%; }\n  .modal .dlg {\n    min-width: 90%;\n    height: 100%;\n    background: rgba(53, 47, 47, 0.6) !important; }\n    .modal .dlg .closeIc {\n      z-index: 9999; }\n    .modal .dlg .ctnr {\n      height: 100%; }\n      .modal .dlg .ctnr .modal-title {\n        text-align: center; }\n      .modal .dlg .ctnr .content {\n        margin: 0.5rem !important;\n        text-align: left;\n        max-height: 100%;\n        overflow-y: scroll; }\n        .modal .dlg .ctnr .content.last-child {\n          margin-bottom: 16px; }\n        .modal .dlg .ctnr .content .card-header {\n          font-size: 14px;\n          font-weight: bold; }\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 275:
+/***/ 400:
 /***/ (function(module, exports) {
 
 /*
@@ -378,13 +378,13 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 280:
+/***/ 404:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(155);
+module.exports = __webpack_require__(276);
 
 
 /***/ })
 
-},[280]);
+},[404]);
 //# sourceMappingURL=styles.bundle.js.map
